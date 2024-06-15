@@ -1,0 +1,589 @@
+
+main {
+    width: 100%;
+    background: url("background2.jpg") no-repeat center center/cover;
+    height: 100vh;
+}
+
+.navbar {
+    width: 100%;
+    height: 75px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.85); /* Darken the navbar */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    color: rgb(255, 255, 255); /* Increase text brightness */
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: #ADFF2F; /* Light green for hover */
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.srch {
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ADFF2F; /* Light green border */
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.btn {
+    height: 40px;
+    background: #ADFF2F; /* Light green */
+    border: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: green;
+}
+.content {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color:#fff;
+    position: relative;
+}
+
+/* About Us Section */
+.about {
+    width: 100%;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    color: #333;
+    text-align: left;
+}
+
+.about h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: green;
+    text-align: center;
+}
+
+.about p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #666;
+    margin: 10px 0;
+}
+
+/* Services Section */
+.servi {
+    width: 100%;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    color: #333;
+    text-align: left;
+}
+
+.servi h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: green;
+    text-align: center;
+}
+
+.servi p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #666;
+    margin: 10px 0;
+}
+
+/* Product Section */
+.prod {
+    width: 100%;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    color: #333;
+    text-align: left;
+}
+
+.prod h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: green;
+    text-align: center;
+}
+
+.prod p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #666;
+    margin: 10px 0;
+}
+
+/* Footer Styling */
+footer {
+    width: 100%;
+    background: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer h5 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #ADFF2F;
+}
+
+footer p, footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1em;
+}
+
+footer .social-media {
+    margin: 20px 0;
+}
+
+footer .social-media li {
+    display: inline;
+    margin-right: 15px;
+}
+
+footer .social-media li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5em;
+    transition: color 0.3s ease;
+}
+
+footer .social-media li a:hover {
+    color: #ADFF2F;
+}
+
+footer .text-center {
+    margin-top: 30px;
+    font-size: 1em;
+    color: #ccc;
+}
+
+.content .par {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    font-size: 18px; /* Increase paragraph font size */
+}
+
+.content h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content .cn {
+    width: 160px;
+    height: 40px;
+    background: #ADFF2F; /* Light green */
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.content .cn a {
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+
+.cn:hover {
+    background-color: #fff;
+}
+
+.content span {
+    color: #ADFF2F; /* Light green */
+    font-size: 60px;
+}
+
+.form {
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, #ADFF2F 50%, green 50%); /* Adjust gradient */
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2 {
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: green;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input {
+    width: 240px;
+    height: 35px;
+    background: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+    border-bottom: 1px solid #ADFF2F; /* Light green border */
+    border-top: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: #ddd; /* Lighter placeholder text */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btnn {
+    width: 240px;
+    height: 40px;
+    background: green;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+
+.btnn:hover {
+    background: #fff;
+    color: green;
+}
+
+.btnn a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.form .link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center; /* Correct typo */
+}
+
+.form .link a {
+    text-decoration: none;
+    color: green;
+}
+
+.liw {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.service-list {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.service-item {
+    margin-bottom: 40px;
+    text-align: center; /* Center-align the content */
+    
+}
+
+.service-item h2 {
+    font-size: 24px;
+    color: #ADFF2F; /* Light green */
+    margin-bottom: 10px;
+}
+
+.service-item img {
+    width: 80%; /* Adjust as needed */
+    height: auto;
+    border-radius: 10px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add shadow */
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 16px;
+    color: #fff;
+    margin: 0 10%;
+}.service-item img {
+    width: 80%; /* Adjust this percentage to change the width relative to the container */
+    max-width: 400px; /* Set a maximum width to prevent it from being too large */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add shadow */
+    margin-bottom: 10px;
+}
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product-item {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 220px;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.product-item h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-item .price {
+    font-size: 20px;
+    color:green; /* Light green */
+    margin-bottom: 10px;
+}
+
+.product-item .btn {
+    background-color: #ADFF2F; /* Light green */
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product-item .btn:hover {
+    background-color: #85cc1a; /* Darker green */
+}
+
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.service-item {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 220px;
+}
+
+.service-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.service-item h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.service-item .price {
+    font-size: 20px;
+    color: green; /* Light green */
+    margin-bottom: 10px;
+}
+
+.service-item .btn {
+    background-color: #ADFF2F; /* Light green */
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.service-item .btn:hover {
+    background-color: #85cc1a; /* Darker green */
+}
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+.contact-form .btn {
+    background-color: #ADFF2F; /* Light green */
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-self: flex-start;
+}
+
+.contact-form .btn:hover {
+    background-color: #85cc1a; /* Darker green */
+}
+/* Modal Styling */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1000; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+    max-width: 600px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
